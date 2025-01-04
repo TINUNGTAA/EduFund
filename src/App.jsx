@@ -2,6 +2,7 @@ import  Header from './header'
 import MidSection from './midSection'
 import AboutSection from './aboutSection';
 import FunderSection from './funderSection';
+// import DownloadSection from './downloadSection'
 function App(){
 
 
