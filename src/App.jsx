@@ -1,8 +1,12 @@
 import  Header from './header'
 import MidSection from './midSection'
-import AboutSection from './aboutSection';
-import FunderSection from './funderSection';
-// import DownloadSection from './downloadSection'
+import AboutSection from './aboutSection'
+import FunderSection from './funderSection'
+import DownloadSection from './downloadSection'
+import FQA from './fqa'
+import Sponsors from './sponsors'
+import Footer from './footer/'
+
 function App(){
 
 
@@ -12,6 +16,10 @@ function App(){
       <MidSection/>
       <AboutSection/>
       <FunderSection/>
+      <DownloadSection/>
+      <FQA/>
+      <Sponsors/>
+      <Footer/>
     </div>
 
   )
