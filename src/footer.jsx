@@ -4,7 +4,7 @@ function Footer() {
       <div className=" flex  items-center  gap-12  text-white text-sm ">
         <img
           src="https://edufundgh.org/landing/assets/img/edufund-logo.svg"
-          className="h-10"
+          className="h-7"
         />
         <ul className="flex gap-12">
           <li className="">
