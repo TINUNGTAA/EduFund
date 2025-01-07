@@ -15,10 +15,7 @@ function FunderSection() {
                 alt="search icon"
                 className="mb-3 w-7"
               />
-              <p className="font-semibold text-gray-700">
-               
-                Find a Fund Request
-              </p>
+              <p className="font-semibold text-gray-700">Find a Fund Request</p>
               <p className="text-sm  mt-1 text-gray-700">
                 Start by selecting a student you would like to support
               </p>
@@ -47,10 +44,14 @@ function FunderSection() {
           </div>
         </div>
         <div className="flex flex-col  lg:flex-row items-center justify-center pt-8 ">
-            <div className=" hidden lg:flex flex-1 justify-center  lg:justify-center mb-10">
-                <img src="https://edufundgh.org/landing/assets/img/student.svg" className="" alt=""/>  
-            </div>
-            <div className="flex-1 flex-col justify-center lg:px-8 lg:ml-24">
+          <div className=" hidden lg:flex flex-1 justify-center  lg:justify-center mb-10">
+            <img
+              src="https://edufundgh.org/landing/assets/img/student.svg"
+              className=""
+              alt=""
+            />
+          </div>
+          <div className="flex-1 flex-col justify-center lg:px-8 lg:ml-24">
             <p className="text-gray-500 font-bold mb-8">GET STARTED AS</p>
             <h1 className=" text-gray-700  font-medium">
               Fundee (Student)
@@ -64,11 +65,10 @@ function FunderSection() {
                 className="mb-3 w-7"
               />
               <p className="font-semibold text-gray-700">
-               
                 Create a Fund Request
               </p>
               <p className="text-sm  mt-1 text-gray-700">
-                Tell your story and submit a request for the amount you need 
+                Tell your story and submit a request for the amount you need
               </p>
             </div>
 
@@ -79,7 +79,6 @@ function FunderSection() {
                 className="mb-3 w-7"
               />
               <p className="font-semibold text-gray-700">
-               
                 Share with family & friends
               </p>
               <p className="text-sm  mt-1 text-gray-700">
@@ -93,18 +92,12 @@ function FunderSection() {
                 alt="search icon"
                 className="mb-3 w-7"
               />
-              <p className="font-semibold text-gray-700">
-               
-                Receive Funds
-              </p>
+              <p className="font-semibold text-gray-700">Receive Funds</p>
               <p className="text-sm  mt-1 text-gray-700">
                 Get contributions from people around the globe
               </p>
             </div>
-
-
-            </div>
-
+          </div>
         </div>
       </div>
     </section>
