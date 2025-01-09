@@ -1,25 +1,42 @@
-function MidSection(){
-    return(
-       <section className="flex flex-col-reverse md:flex-row items-center justify-between px-28 py-1 bg-white">
-        <div className="flex-1 text-center md:text-left">
-            <h1 className="lg:text-5xl md:text-4xl  sm:text-3xl font-bold text-edufund-green mb-6 ">Help a student continue <br/>schooling 
+function MidSection() {
+  return (
+    <section>
+      <div className="flex flex-col-reverse lg:flex-row items-center  gap-12 mt-6 lg:px-28 lg:mt-16 ">
+        <div className="flex flex-1 flex-col items-center  lg:items-start ">
+          <h2 className="text-edufund-green text-3xl lg:5xl md:5xl text-center font-bold  lg:text-left mb-6">
+            Help a student continue <br />
+            schooling
             <div className="hidden lg:flex my-6 w-16 h-1 bg-edufund-green"></div>
-            </h1>
-            <p className="mb-6 text-gray-700 text-center  lg:text-left sm:text-lg lg:text-xl md:text-xl " > Invest in the future, fund a student today</p>
-            <div className="flex lg:my-6 my-2 justify-center sm:justify-start flex-wrap gap-6 ">
-                <a href="#" className=" bg-edufund-green text-white py-3 px-6  hover:bg-green-700 w-90 rounded-sm  mb-6">Get funding for your education</a>
-               
-
-            </div>
-            <div className="flex text-center justify-center sm:justify-start">  <a href="#" className=" bg-white text-edufund-green py-3 px-16 bg-gray-500 border-edufund-green rounded-sm border border-edufund-green  ">Support a student</a>
-            </div>
+          </h2>
+          <p className="text-gray-700 text-lg lg:text-xl md:xl lg:text-left mb-6 ">
+            Invest in the future, fund a student today
+          </p>
+          <div className="flex lg:my-6  justify-center sm:justify-start  flex-wrap gap-6">
+            <a
+              href="https://paystack.com/pay/edufund"
+              target="_blank"
+              className="text-center cursor-pointer py-3 px-6 rounded-sm bg-edufund-green text-white w-10/12 transition duration-300 hover:bg-green-900 lg:left "
+            >
+              Get funding for you education
+            </a>
+            <a
+              href="https://paystack.com/pay/edufund"
+              target="_blank"
+              className="text-center cursor-pointer py-3 px-6 rounded-sm bg-white text-edufund-green border border-edufund-green w-10/12 transition duration-300 hover:text-green-900 "
+            >
+              Support a student
+            </a>
+          </div>
         </div>
-        <div className=" flex flex-1  justify-center md:mb-8 lg:mb-0">
-            <img src="https://edufundgh.org/landing/assets/img/edufund-hero-image.png" alt="illustration " className="w-10/12" />
 
+        <div className="flex justify-center flex-1 md:-8 lg:mb-0">
+          <img
+            src="https://edufundgh.org/landing/assets/img/edufund-hero-image.png"
+            className="w-8/12 "
+          />
         </div>
-
-       </section> 
-    )
+      </div>
+    </section>
+  );
 }
 export default MidSection;

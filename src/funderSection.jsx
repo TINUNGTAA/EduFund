@@ -2,8 +2,8 @@ function FunderSection() {
   return (
     <section>
       <div className="mt-20 lg:mt-24 lg:w-8/12 mx-auto ">
-        <div className="flex flex-col lg:flex-row items-center justify-center ">
-          <div className="flex-1 flex-col justify-center lg:px-8">
+        <div className="flex flex-col lg:flex-row items-center justify-center text-left ">
+          <div className="flex-1 flex-col justify-center ">
             <p className="text-gray-500 font-bold mb-8">GET STARTED AS</p>
             <h1 className=" text-gray-700  font-medium">
               Funder (Investor)
