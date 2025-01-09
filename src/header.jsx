@@ -11,11 +11,11 @@ function Header() {
 
       <a
         href="https://play.google.com/store/apps/details?id=com.anudsc.edufundgh"
-        className="border py-3 px-7 bg-gray-600 hover:bg-gray-700 rounded-md text-white font-bold-none  text-sm text-center cursor-pointer hidden  md:block "
+        className="border py-3 px-7 bg-gray-600 hover:bg-gray-700 rounded-md text-white font-bold-none  text-sm text-center cursor-pointer hidden  lg:block "
       >
         DOWNLOAD
       </a>
-      <div className=" flex  flex-1 justify-end  block  md:hidden">
+      <div className=" flex  flex-1 justify-end  block  lg:hidden">
         <i className=" fas fa-bars text-xl"></i>
       </div>
     </header>
